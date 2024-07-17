@@ -12,6 +12,10 @@
 .text{
  font-size: 14px;   
 }
+.navbar-brand{
+   color: #24758a; 
+   font-weight: bolder;
+}
  .text span{
     font-size: 22px;
     font-weight: bolder;
@@ -21,7 +25,7 @@
  }
  .last p{
     background-color: #70cce3;
-    height: 10vh;
+   
   
     display: flex;
     align-items: center;
@@ -34,6 +38,9 @@
  .hello{
     width: 70%;
  }
+ .main1{
+  margin-top: 60px;
+ }
  a{
     color: black;
  }
@@ -41,13 +48,18 @@
    background-color: #9CE6F8;
    height: 60px;
  }
- @media only screen and(max-width:780px ){
-    .img1{
-        width: 100vw;
-    
-    }
-
+ .btn1{
+   border-color: #02D3FF;
+   background-color: linear-gradient(#019cf000, #196a83);
  }
+ .btn1:hover{
+   border-color: #02D3FF;
+   background: linear-gradient(#019cf05a, #01c4ff);
+}
+.btn2{
+   background-color: #C1D42F;
+}
+
 
    
  
